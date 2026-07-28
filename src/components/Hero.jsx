@@ -45,7 +45,7 @@ export default function Hero() {
 </a>
 
             <a
-  href="/Sandhiya_Shree_S_Resume (2).pdf"
+  href="/Sandhiya_Shree_S_Resume (3).pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-full hover:bg-yellow-400 hover:text-black hover:scale-110 hover:shadow-lg hover:shadow-yellow-400/40 transition-all duration-300 inline-flex items-center justify-center"
