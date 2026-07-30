@@ -2,7 +2,10 @@ import profile from "../assets/profile.png";
 import { motion } from "framer-motion";
 export default function Hero() {
   return (
-    <section className="min-h-screen text-white flex items-center justify-center px-6 pt-28 bg-[radial-gradient(circle_at_top_right,rgba(250,204,21,0.18),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(250,204,21,0.10),transparent_35%),#000]">
+    <section
+      id="home"
+      className="min-h-screen text-white flex items-center justify-center px-6 pt-28 bg-[radial-gradient(circle_at_top_right,rgba(250,204,21,0.18),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(250,204,21,0.10),transparent_35%),#000]"
+    >
 
       <div className="max-w-7xl w-full grid md:grid-cols-2 gap-16 items-center">
 
