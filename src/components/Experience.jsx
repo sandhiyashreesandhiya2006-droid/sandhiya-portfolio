@@ -732,6 +732,19 @@ export default function Experience() {
 
   </div>
 
+<div className="flex justify-center mt-10">
+
+  <a
+    href="https://drive.google.com/file/d/1atxu_bW9oVERZcBX2kSS2LcIcZBtJuC0/view?usp=drivesdk"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-3 bg-yellow-400 text-black px-8 py-4 rounded-xl font-semibold shadow-lg hover:scale-105 hover:shadow-yellow-400/40 transition-all duration-300"
+  >
+    📄 View Job Simulation Certificate
+  </a>
+
+</div>
+
 </motion.div>
 
 
