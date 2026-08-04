@@ -213,6 +213,108 @@ export default function Experience() {
   </div>
 
 </motion.div>
+
+{/* ================= TATA GROUP JOB SIMULATION ================= */}
+
+<motion.div
+  initial={{ opacity: 0, y: 60 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7 }}
+  viewport={{ once: true }}
+  className="bg-gradient-to-br from-[#151515] to-[#0d0d0d] border border-yellow-500/20 rounded-3xl p-10 shadow-[0_0_40px_rgba(250,204,21,0.08)] hover:border-yellow-400 transition-all duration-500 mb-20"
+>
+
+  <div className="flex items-center gap-5 mb-8">
+
+    <div className="bg-yellow-400 p-5 rounded-2xl">
+
+      <FaBriefcase className="text-black text-3xl" />
+
+    </div>
+
+    <div>
+
+      <h2 className="text-4xl font-bold text-yellow-400">
+        Tata Group Data Analytics Job Simulation
+      </h2>
+
+      <p className="text-gray-400 mt-2">
+        Forage | Tata iQ Financial Services Team
+      </p>
+
+    </div>
+
+  </div>
+
+  <div className="flex items-center gap-4 mb-8">
+
+    <FaCalendarAlt className="text-yellow-400 text-xl" />
+
+    <span className="text-lg text-gray-300">
+      Completed August 4, 2026
+    </span>
+
+  </div>
+
+  <div className="grid md:grid-cols-2 gap-6">
+
+    {[
+      "Completed an AI-powered data analytics and strategy simulation for the Financial Services team at Tata iQ.",
+
+      "Conducted exploratory data analysis using GenAI tools to assess data quality, identify risk indicators and structure insights for predictive modeling.",
+
+      "Proposed and justified an initial no-code predictive modeling framework to assess customer delinquency risk.",
+
+      "Designed an AI-driven collections strategy using agentic AI, automation, ethical AI principles, regulatory compliance and scalable implementation frameworks.",
+    ].map((item) => (
+
+      <motion.div
+        key={item}
+        whileHover={{ y: -8, scale: 1.02 }}
+        className="bg-[#151515] border border-yellow-500/20 rounded-2xl p-6 hover:border-yellow-400 transition-all"
+      >
+
+        <p className="text-gray-300 leading-8">
+          ✅ {item}
+        </p>
+
+      </motion.div>
+
+    ))}
+
+  </div>
+
+  <div className="flex flex-wrap gap-3 mt-8">
+
+    {[
+      "AI Analytics",
+      "AI Strategy",
+      "Analytical Reporting",
+      "Data Interpretation",
+      "Data Quality Management",
+      "Exploratory Data Analysis",
+      "Model Selection",
+      "Model Validation",
+      "Predictive Analytics",
+      "Process Automation",
+      "Ethical Reasoning",
+      "Regulatory Compliance",
+      "Strategic Thinking",
+    ].map((skill) => (
+
+      <span
+        key={skill}
+        className="bg-yellow-400 text-black px-5 py-3 rounded-full font-bold"
+      >
+        {skill}
+      </span>
+
+    ))}
+
+  </div>
+
+</motion.div>
+
 {/* ================= TOOLS ================= */}
 
 <motion.div
