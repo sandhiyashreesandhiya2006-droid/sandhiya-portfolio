@@ -749,6 +749,112 @@ export default function Experience() {
 
 
 
+{/* ================= QUANTIUM DATA ANALYTICS JOB SIMULATION ================= */}
+
+<motion.div
+  initial={{ opacity: 0, y: 60 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7 }}
+  viewport={{ once: true }}
+  className="bg-gradient-to-br from-[#151515] to-[#0d0d0d] border border-yellow-500/20 rounded-3xl p-10 shadow-[0_0_40px_rgba(250,204,21,0.08)] hover:border-yellow-400 transition-all duration-500 mb-20"
+>
+
+  <div className="flex items-center gap-5 mb-8">
+
+    <div className="bg-yellow-400 p-5 rounded-2xl">
+      <FaBriefcase className="text-black text-3xl" />
+    </div>
+
+    <div>
+      <h2 className="text-4xl font-bold text-yellow-400">
+        Quantium Data Analytics Job Simulation
+      </h2>
+
+      <p className="text-gray-400 mt-2">
+        Forage | Data Science Team
+      </p>
+    </div>
+
+  </div>
+
+  <div className="flex items-center gap-4 mb-8">
+    <FaCalendarAlt className="text-yellow-400 text-xl" />
+    <span className="text-lg text-gray-300">
+      Completed August 7, 2026
+    </span>
+  </div>
+
+  <div className="grid md:grid-cols-2 gap-6">
+
+    {[
+      "Completed an online Data Analytics Job Simulation focused on customer analytics and commercial insights.",
+
+      "Analyzed 264,834+ transaction records and performed customer analytics, data preparation and commercial insights.",
+
+      "Conducted benchmark store analysis and uplift testing to evaluate trial store performance using data-driven techniques.",
+
+      "Prepared analytical reports and commercial recommendations for the Category Manager to support strategic business decisions.",
+    ].map((item) => (
+
+      <motion.div
+        key={item}
+        whileHover={{ y: -8, scale: 1.02 }}
+        className="bg-[#151515] border border-yellow-500/20 rounded-2xl p-6 hover:border-yellow-400 transition-all"
+      >
+        <p className="text-gray-300 leading-8">
+          ✅ {item}
+        </p>
+      </motion.div>
+
+    ))}
+
+  </div>
+
+  <div className="flex flex-wrap gap-3 mt-8">
+
+    {[
+      "Commercial Thinking",
+      "Data Analysis",
+      "Data Cleaning",
+      "Data Validation",
+      "Data Visualization",
+      "Statistical Analysis",
+      "Programming",
+      "Communication Skills",
+      "Presentation Skills",
+      "Customer Analytics",
+      "Commercial Insights",
+      "Business Reporting",
+    ].map((skill) => (
+
+      <span
+        key={skill}
+        className="bg-yellow-400 text-black px-5 py-3 rounded-full font-bold"
+      >
+        {skill}
+      </span>
+
+    ))}
+
+  </div>
+
+  <div className="flex justify-center mt-10">
+
+    <a
+      href="https://drive.google.com/file/d/1K25XQALhJJO5m-NJzYWFfdtzu0Ah4F9l/view?usp=drivesdk"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-3 bg-yellow-400 text-black px-8 py-4 rounded-xl font-semibold shadow-lg hover:scale-105 hover:shadow-yellow-400/40 transition-all duration-300"
+    >
+      📄 View Job Simulation Certificate
+    </a>
+
+  </div>
+
+</motion.div>
+
+
+
 </motion.div>
 
 </div>
