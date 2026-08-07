@@ -847,7 +847,7 @@ export default function Experience() {
       className="inline-flex items-center gap-3 bg-yellow-400 text-black px-8 py-4 rounded-xl font-semibold shadow-lg hover:scale-105 hover:shadow-yellow-400/40 transition-all duration-300"
     >
       📄 View Job Simulation Certificate
-    </a>
+    </a> 
 
   </div>
 
