@@ -625,7 +625,7 @@ export default function Experience() {
 
   <div className="flex justify-center mt-8 mb-12">
   <a
-    href="/internship-certificate"
+    href="https://drive.google.com/file/d/1iG97XypJrWrmwCHQQI0Djw5PF1AMO6eE/view?usp=drivesdk"
     className="inline-flex items-center gap-3 bg-yellow-400 text-black px-8 py-4 rounded-xl font-semibold shadow-lg hover:scale-105 hover:shadow-yellow-400/40 transition-all duration-300"
   >
     📄 View Internship Certificate
