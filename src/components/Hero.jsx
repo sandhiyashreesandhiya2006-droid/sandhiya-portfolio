@@ -48,7 +48,7 @@ export default function Hero() {
 </a>
 
             <a
-  href="/Sandhiya_Shree_S_Resume (4).pdf"
+  href="https://drive.google.com/file/d/1Bn01c5D3qqAjZ9iqY_WSibZsohb7ab08/view?usp=drivesdk"
   target="_blank"
   rel="noopener noreferrer"
   className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-full hover:bg-yellow-400 hover:text-black hover:scale-110 hover:shadow-lg hover:shadow-yellow-400/40 transition-all duration-300 inline-flex items-center justify-center"
